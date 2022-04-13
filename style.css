@@ -1,0 +1,59 @@
+body{
+
+background-color: #050210  ;
+}
+.element-1{
+    border: 1px solid;
+width: 400px;
+height: 400px;
+border-radius: 100%;
+margin:100px auto;
+background:linear-gradient( #fb5dad, #55fb9f, #b97aff );
+animation-name: my-animation;
+animation-iteration-count: infinite;
+animation-duration: 1.5s;
+box-shadow: 0 0 150px white;
+box-shadow: inset;
+}
+.element-2{
+    border: 1px solid;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin: 24px auto;
+    background-color:  #050210;
+    
+
+
+}  
+.element-3{
+    border: 1px solid;
+    width: 330px;
+    height: 330px;
+    border-radius: 100%;
+    margin: 10px auto;
+    background-color: #1a181f;
+    animation-name: my-animation2;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    filter: opacity(40%);
+    
+    
+}
+@keyframes my-animation {
+ from{
+     transform: rotate(0deg);
+ }
+ to{
+     transform: rotate(360deg) ;
+ }
+}
+@keyframes my-animation2 {
+ from{
+     transform: scale(0);
+ }
+ to{
+     transform:  scale(1);
+
+ }
+}
